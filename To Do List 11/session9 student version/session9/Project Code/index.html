@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Todo App Step 11</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8e7c793750.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="section-center">
+
+        <div class="todo-form">
+
+            <h3>To Do List</h3>
+
+            <div class="form-control">
+
+                <input
+                    type="text"
+                    name="todo-list"
+                    id="todo-input"
+                    placeholder="e.g. Go to the market"
+                />
+
+                <input
+                    type="button"
+                    class="add-btn"
+                    value="Add"
+                />
+
+            </div>
+
+        </div>
+
+
+        <div class="controls">
+
+            <div class="filters">
+
+                <span class="active" id="all">All</span>
+
+                <span id="pending">Pending</span>
+
+                <span id="completed">Completed</span>
+
+            </div>
+
+            <button
+                type="button"
+                class="clear-btn">
+                Clear all Items
+            </button>
+
+        </div>
+
+
+        <div class="todo-container">
+
+            <div class="todo-list">
+                <!-- Todo items will be added here -->
+            </div>
+
+
+            <div class="alert-message">
+
+                <span class="alert"></span>
+
+            </div>
+
+
+            <div id="counter">
+
+                <span class="counter-completed"></span>
+
+                <span class="counter-left"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
